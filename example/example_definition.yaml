@@ -1,0 +1,14 @@
+mapper:
+  -
+    name: AccountMapper
+    pump: I3or1s\Pump\SimplePump
+    sink: AccountSink
+    translation:
+      -
+        class: \I3or1s\Translator\StringTranslator
+        arguments: [EmployeeId, id]
+      -
+        class: \I3or1s\Translator\StringTranslator
+        arguments: [Name, name]
+      -
+        class: Address

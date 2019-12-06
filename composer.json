@@ -1,0 +1,15 @@
+{
+    "name": "dzo/data-mapper",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.1"
+    },
+    "require-dev": {
+        "symfony/yaml": "^5.1@dev"
+    },
+    "autoload": {
+        "psr-4": {"I3or1s\\": "src/"}
+    }
+}

@@ -1,0 +1,10 @@
+EmployeeId: 22
+Organization:
+  - Alpha
+  - Gama
+  - Delta
+DateOfBirth: '2019-12-05 02:00:00'
+Name: John
+LastName: Doe
+HomeAddress: ~
+WorkAddress: Some Address
